@@ -5,7 +5,7 @@ public class AssignmentQuestion3_2 {
 		//Q3. Find the largest of 3 given numbers. Using nested IF operator
 				int num1 = 1;
 				int num2 = 0;
-				int num3 = 0;		
+				int num3 = 9;		
 				
 				boolean ifGreater = (num1>num2) && (num1>num3) && (num2>num1) && (num2>num3) &&(num3>num1) && (num3>num2);
 			
