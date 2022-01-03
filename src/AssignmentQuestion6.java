@@ -14,7 +14,7 @@ public class AssignmentQuestion6 {
 		boolean promo10 = true;
 		boolean promo20 = false;
 
-		boolean discountAll = true; // Always true; 50% discount on all products
+		// Always true; 50% discount on all products
 		System.out.println("50% discount on all products, so you will get a discount of: " + "$"
 				+ (discountEvery * productPrice));
 
