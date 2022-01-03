@@ -12,7 +12,6 @@ public class AssignmentQuestion2 {
 		boolean iflevel1 = false;
 		boolean iflevel2 = true;
 		boolean iflevel3 = true;
-		boolean alllevel = (iflevel1 == iflevel2) && (iflevel1 == iflevel3) && (iflevel2 == iflevel3);
 
 		if (age < 16) {
 			System.out.print("minimum required age is 16, come back after: " + diff + "years");
@@ -28,10 +27,6 @@ public class AssignmentQuestion2 {
 
 		else if (iflevel3) {
 			System.out.println("you have passed level3: " + level3);
-		}
-
-		else if (alllevel) {
-			System.out.println("all level passed");
 		}
 
 	}
