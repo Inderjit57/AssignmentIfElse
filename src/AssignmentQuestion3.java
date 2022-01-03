@@ -6,10 +6,7 @@ public class AssignmentQuestion3 {
 		// Q3. Find the largest of 3 given numbers. Using && operator
 		int num1 = 1;
 		int num2 = 61;
-		int num3 = 4;
-
-		boolean ifGreater = (num1 > num2) && (num1 > num3) && (num2 > num1) && (num2 > num3) && (num3 > num1)
-				&& (num3 > num2);
+		int num3 =100;
 
 		if (num1 > num2 && num1 > num3) {
 			System.out.println("num1 is greater than num2 and num3:" + num1);
