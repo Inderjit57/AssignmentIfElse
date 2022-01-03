@@ -3,8 +3,8 @@ public class AssignmentQuestion4 {
 
 	public static void main(String[] args) {
 
-		int num1 = 153;
-		int num2 = 5;
+		int num1 = 207;
+		int num2 = 40;
 		int sum = num1 % num2;
 		boolean ifmultiple = num1 % num2 == 0;
 
@@ -13,7 +13,7 @@ public class AssignmentQuestion4 {
 		}
 
 		else {
-			System.out.println("number is invalid" + "\nRemainder is: " + sum);
+			System.out.println("num1 is not a multiple of num2" + "\nRemainder is: " + sum);
 		}
 
 	}
