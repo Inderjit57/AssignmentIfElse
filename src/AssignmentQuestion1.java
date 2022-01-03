@@ -3,7 +3,7 @@ public class AssignmentQuestion1 {
 
 	public static void main(String[] args) {
 
-		int score =  65 ;
+		int score =  77 ;
 		char grade1 = 'A';
 		char grade2 = 'B';
 		char grade3 = 'C';
