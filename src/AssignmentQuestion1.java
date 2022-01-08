@@ -3,7 +3,7 @@ public class AssignmentQuestion1 {
 
 	public static void main(String[] args) {
 
-		int score =  77 ;
+		int score =  30 ;
 		char grade1 = 'A';
 		char grade2 = 'B';
 		char grade3 = 'C';
@@ -25,12 +25,8 @@ public class AssignmentQuestion1 {
 		}
 
 		// score is above 75
-		else if (score >= 75 && score <= 100) {
-			System.out.print("The Student scored above 75%, So grade is: " + grade1);
-		}
-
 		else {
-			System.out.println("out of scope");
+			System.out.print("The Student scored above 75%, So grade is: " + grade1);
 		}
 
 	}

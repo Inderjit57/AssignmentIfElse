@@ -5,7 +5,7 @@ public class AssignmentQuestion3_2 {
 		// Q3. Find the largest of 3 given numbers. Using nested IF operator
 		int num1 = 5;
 		int num2 = 200;
-		int num3 = 20;
+		int num3 = 20000;
 
 		if (num1 > num2) {
 			if (num1 > num3) {
@@ -13,7 +13,6 @@ public class AssignmentQuestion3_2 {
 			} else {
 				System.out.println("try another number");
 			}
-
 		}
 
 		else if (num2 > num1) {
@@ -24,22 +23,9 @@ public class AssignmentQuestion3_2 {
 			}
 		}
 
-		else if (num3 > num1) {
-			if (num3 > num2) {
-				System.out.println("num3 is greater than num1 and num2: " + num3);
-			} else {
-				System.out.println("try another number");
-			}
+		else {
+			System.out.println("num3 is greater than num1 and num2: " + num3);
 		}
-
-		else if (num1 == num2) {
-			System.out.println("Numbers cannot be same");
-				if (num2 == num3) {
-				System.out.println("Numbers cannot be same");
-			}
-
-		}
-
 	}
 
 }
