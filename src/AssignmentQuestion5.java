@@ -3,7 +3,7 @@ public class AssignmentQuestion5 {
 
 	public static void main(String[] args) {
 
-		int goalsAchieved = 25; // No. of goals achieved
+		int goalsAchieved = 85; // No. of goals achieved
 		double goal50 = 0.01; // 1% of commision for 50% goals
 		double goalLess70 = 0.05; // 5%of commision for less than 70% goals achieved
 		double goalMore70 = 0.1; // 10% of commision for more than 70% goals achieved
@@ -21,7 +21,7 @@ public class AssignmentQuestion5 {
 			System.out.println("Total goals achieved: " + goalsAchieved + "\nCommision will be: " + commision70);
 		}
 
-		else if (goalsAchieved > 70) {
+		else {
 			System.out.println("Total goals achieved: " + goalsAchieved + "\nCommision will be: " + commision70Plus);
 		}
 
